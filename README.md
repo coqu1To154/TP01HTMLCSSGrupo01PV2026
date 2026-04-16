@@ -33,8 +33,13 @@ Para armar esta página, lo primero que hice fue enfocarme en la estructura sem�
 Perfil.html :
 >>>>>>> 81cdf523996f57f7f59c13d302129ce2c9b74f5a
 
+<<<<<<< HEAD
 Proyectos.html :
 
 ##Tecnologias Utilizadas
 
 HTML5
+=======
+Proyectos.html : inclute barra de filtros que permite organizar los proyectos por categoria , año y estado y un listado de los proyectos donde se presenta titulo , imagen , descripcion , categoria y enlace para mas detalles.
+Se utilizaron etiquetas como <aside> <section> <article>
+>>>>>>> 623248e8cd3351164a126a3c1b2936aac832da9c
