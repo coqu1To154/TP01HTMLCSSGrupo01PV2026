@@ -1,0 +1,51 @@
+body{
+    font-family: "Roboto";
+    background-color: rgb(255, 174, 0);
+    line-height: 1.6;
+    margin: 20px;
+
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.perfil_de_usuario{
+    color: blueviolet;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    background-color: azure;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.tabla_perfil{
+    width: 30%;
+    border-collapse: collapse;
+}
+
+.tabla_perfil th,
+.tabla_perfil td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabla_perfil th{
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+}
+
+.tabla_perfil td{
+    background-color: white;
+}
