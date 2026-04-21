@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principal</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@1,17..18,400..700&family=Noto+Serif+Display:ital,wdth,wght@1,92.4,265&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+IE&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
     <header>
-        <h1>Gestion de Proyectos Educativos</h1>
+        <h1 id="titulo">Gestion de Proyectos Educativos</h1>
         <p> Bienvenidos a los usuarios de esta plataforma </p>
         <hr>
     </header>
-    <nav>
+    <nav class="navbar">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="proyectos.html">Explorador de Proyectos</a></li>
@@ -21,44 +24,52 @@
             <li><a href="perfil.html">Perfil de Usuario</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
+    <main id="seccion-principal">
+        <section class="contenedor">
             <h2>Estadisticas</h2>
-            
-            <article>
+
+            <article class="tarjetas">
                 <h4>Proyectos Totales</h4>
-                <p></p>
+                <p> 9 Proyectos Terminados</p>
             </article>
 
-            <article>
+            <article class="tarjetas">
                 <h4>Tareas Para Hoy</h4>
-                <p> </p>
+                <p> 12 Tareas pendientes</p>
             </article>
 
-            <article>
+            <article class="tarjetas">
                 <h4>Mensajes Pendientes</h4>
-                <p></p>
+                <p>10 Mensajes sin leer</p>
             </article>
 
         </section>
-        
-        <br>
 
-        <section>
+
+
+        <section class="contenedor">
             <h2>Novedades</h2>
-            <H4>Acciones realizadas en el Sistema</H4>
-            <ol>
-                <li>Leandro Barea-Realizo el Primer Commit.</li>
-                <li>Jonatan Chaile - Agrego el archivo perfil.html y creo la carperta img.</li>
-                <li>Faundo Matorras- Corrigió la estructuras del proyecto y reubico archivos.</li>
-                <li>Alejandro Fernandez - Agrego el archivo index.html.</li>
-            </ol>
+            <article class="tarjetas">
+                <H4>Acciones realizadas en el Sistema</H4>
+                <ol>
+                    <li>Leandro Barea-Realizo el Primer Commit.</li>
+                    <li>Jonatan Chaile - Agrego el archivo perfil.html y creo la carperta img.</li>
+                    <li>Facundo Matorras- Corrigió la estructuras del proyecto y reubico archivos.</li>
+                    <li>Alejandro Fernandez - Agrego el archivo index.html.</li>
+                </ol>
+            </article>
         </section>
     </main>
+
     <footer>
+        <hr>
         <p><b>&copy; 2026 Gestion de Proyectos Educativos - Todos los derechos reservados</b></p>
-        <p><b>Correo: ProyectosEducativos@gmail.com</b></p>
-        <p><b>Telefono: 11111</b></p>
+        <p class="icon-email">
+            <span class="material-symbols-outlined">mail</span><b>Correo: ProyectosEducativos@gmail.com</b>
+        </p>
+        <p class="icon-phone">
+            <span class="material-symbols-outlined">call</span><b>Telefono: 11111</b>
+        </p>
     </footer>
 </body>
 
