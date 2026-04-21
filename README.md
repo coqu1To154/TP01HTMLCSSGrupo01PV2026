@@ -1,16 +1,23 @@
-##Integrantes del Grupo
+##Integrantes del grupo
+1.Franco Camilo Ponze @FrancoPonce579
+2.Jonatan Andres Chaile @jonatanchaile
+3.Facundo Manuel Matorras @coqu1To154
+4.Leandro Barea @LeandroBarea
+5.Alejandro Ezequiel Fernandez @Alee91218
 
-1. Franco Camilo Ponce @FrancoPonce579
-2. Jonathan Andres Chaile @jonatanchaile
-3. Alejandro Ezequiel Fernandez @Alee91218
-4. Leandro Barea @LeandroBarea
-5. Facundo Manuel Matorras @coqu1To154
+##Descripcion del proyecto
+Este proyecto consiste en la cosntruccion de un sitio web utilizando HTML, orientado a la gestion de proyectos educativos.
+Se desarrollaron distintas paginas que permiten organizar la informacion de manera clara y estructurada.
 
-Index.html : 
+##Paginas desarrolladas
 
-Detalle.html :
-Para este archivo, usé etiquetas semánticas como <header>, <main>, <section> y <footer> para estructurar la información del proyecto educativo. El contenido incluye un título con <h1>, dos párrafos de descripción, una lista de recursos (<ul>) y el equipo de trabajo, respetando la consigna de no usar CSS en esta etapa
+Index.html:pagina de inicio del sitio, permite la navegacion hacia las distintas secciones del proyecto.
 
-Perfil.html :
+Detalle.html:muestra la vista individual del proyecto educativo, incluyendo descripcion, recursos y datos relevantes.
 
-Proyectos.html :
+Perfil.html:contiene los datos del usuario, incluyendo informacion personal y foto de perfil.
+
+Proyectos:incluye barra de filtros que permite organizar los proyectos por categoria, año y estado y un listado de los proyectos donde se presenta titulo, imagen, descripcion, categoria y enlaces para mas detalles.
+
+##Tecnologias usadas
+HTML5
