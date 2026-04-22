@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Detalles Del Proyecto</title>
+    <link rel="stylesheet" href="detalle.css">
 </head>
 
 
 <body>
     <header>
-    <h1>Plataforma de Gestión de Proyectos Educativos</h1> 
-    <nav> <a href="index.html">Volver al Inicio</a> </nav>
+        <div class="contenedor-titulo">
+    <h1 id="titulo"> Plataforma de Gestión de Proyectos Educativos</h1> 
+    </div>
+    <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Explorador de Proyectos</a></li>
+                <li><a href="detalle.html">Detalles del Proyecto</a></li>
+                <li><a href="perfil.html">Perfil de Usuario</a></li>
+            </ul>
+        </nav>
+    
 </header>
 
 <main>
-<section>
+<section id="Primero">
     <h2>Proyecto: Alfabetizacion Digital en Escuelas Rurales</h2>
     <p> <strong>Autores:</strong>Leandro,Alejandro,Facundo y Franco  </p>
     </section>
 
-<section> 
-    <h3>Descripción del Proyecto</h3>
+<section id="Segundo"> 
+    <h10>Descripción del Proyecto</h10>
         <p>Este proyecto surge con la necesidad de integrar herramientas tecnológicas en las instituciones educativas más alejadas de los centros urbanos. El objetivo principal es reducir la brecha digital mediante talleres prácticos para alumnos y docentes.</p>
         <p>A través de la instalación de servidores locales y el uso de software de código abierto, buscamos que cada escuela tenga autonomía en su material didáctico, permitiendo el acceso a bibliotecas virtuales sin depender exclusivamente de una conexión estable a internet.</p>
 </section> 
@@ -38,16 +49,21 @@
 
     <section>
         <h3>Equipo de Trabajo</h3>
-        <ul>
+        <ul id="lista">
             <li><strong>Leandro Barea:</strong> Maquetado de Detalle </li>
             <li><strong>Ale:</strong> Dashboard Principal</li>
             <li><strong>Facu y Franco:</strong> Explorador de Proyectos</li>
         </ul>
     </section>
+    <button id="btn-color-fondo">Cambiar Color de Fondo</button>
 <footer>
-    <p>&copy; 2026 - Analista Programador Universitario - UNJu</p>
+     <p><b>© 2026 Proyectos Educativos - Todos los derechos reservados</b></p>
+            <p><b>Correo: ProyectosEducativos@gmail.com</b></p>
+            <p><b>Telefono: 11111</b></p>
 </footer>
+
 </main>
+<script type="module" src="js/ejercicio25.js"></script>
 </body>
 
 
